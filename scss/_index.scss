@@ -1,0 +1,62 @@
+.presentacion {
+    width:100%; height: 723px; ; background-image: url(images/fondo1.jpg);
+    .frase1, .parrafo1 { font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:white;
+    }
+
+    .frase1 { padding-top: 285px; padding-bottom: 5px; 
+        margin-left: 50px;margin-bottom: 130px; margin-right: 100px; 
+        font-weight: bolder; font-size: 30px; 
+        display: flex; justify-content: left; width: 400px;}
+    
+    .parrafo1 {font-size: 30px; font-weight: bolder;
+            padding-left: 200px; padding-right: 200px; display: flex; justify-content: center;}
+
+}
+
+.section2 { 
+    display: flex; justify-content: center;
+    .parrafo2 {
+        font-family: 'Poppins', sans-serif; 
+        font-weight: bolder; 
+        line-height: 30px;
+        color: rgb(19, 17, 17); 
+        width: 800px; 
+        padding-top: 50px;
+         padding-bottom: 50px;}
+
+}
+
+.planes-individuales-container {
+    &hover {.plan1 {transform: translate(-530px); transition: 5s;} .plan3 {transform: translate(530px); transition: 5s;} }
+    .planes-individuales {font-family: 'Poppins', sans-serif; font-size: 50px; font-weight: bold; display: flex; justify-content: center; margin: 20px auto;}
+    .planes-container {display: flex;}
+    .plan1, .plan3 { background-color: rgb(226, 146, 26); color: rgb(15, 1, 1);}
+    .plan2, .plan1 {margin-left: 570px; position: absolute; width: 25%; height: 350px; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: bold; 
+    text-align: center; padding-top: 20px;}
+    .plan3 {margin-left: 570px; width: 25%; height: 350px; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: bold; 
+    text-align: center; padding-top: 20px; }
+    .plan2 { background-color: rgb(15, 1, 1);color: rgb(255, 255, 255);}
+    
+     }
+
+.planes-grupales-container { 
+    &hover {.plan1 {transform: translate(-530px); transition: 5s;} .plan3 {transform: translate(530px); transition: 5s;} }
+    .planes-grupales {font-family: 'Poppins', sans-serif; font-size: 50px; font-weight: bold; display: flex; justify-content: center; margin: 20px auto; }
+    .planes-container {display: flex;}
+    .plan1, .plan3 { background-color: rgb(226, 146, 26); color: rgb(15, 1, 1);}
+    .plan2, .plan1 {margin-left: 570px; position: absolute; width: 25%; height: 350px; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: bold; 
+    text-align: center; padding-top: 20px;}
+    .plan3 {margin-left: 570px; width: 25%; height: 350px; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: bold; 
+    text-align: center; padding-top: 20px; }
+    .plan2 { background-color: rgb(15, 1, 1);color: rgb(255, 255, 255);}
+
+}
+
+.section-IG { 
+    .clases-IG {font-family: 'Poppins', sans-serif; font-size: 50px; font-weight: bold; display: flex; justify-content: center; margin: 20px auto;
+    }
+    .planes-container-IG { display: flex; justify-content: space-around; .plan2c { width: 25%; height: 350px; margin-left: 40px; margin-right: 40px; font-family: 'Poppins', sans-serif; font-size: 30px; font-weight: bold; color: black;
+        text-align: center; padding-top: 20px;}}
+
+}
