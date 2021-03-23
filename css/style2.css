@@ -169,16 +169,6 @@ margin:30px auto;}
    margin-bottom: 30px;
    }
 
-.section-IG .clases-IG {
-  font-family: "Poppins", sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  margin: 20px auto;
-  text-align: center;
-
-}
 .section-IG .planes-container-IG {
   display: flex;
 }
@@ -290,14 +280,28 @@ height: 300px;}
   height: 300px;
 }
 
-.carrusel {margin: 30px auto ;}
+.carrusel {
+  margin: 30px auto ;
+  background-color: black;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.transformaciones {
+  width: 70%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
 .carrusel-title {
   margin: 20px; 
   font-family: 'Poppins', sans-serif;
-  text-shadow: 6px 3px 6px #666262;
+  text-shadow: 6px 3px 6px #ead9d9;
   font-size: 1.5rem;
   font-weight: bolder;
   text-align: center;
+  color: white;
   
 }
 
@@ -418,7 +422,6 @@ input {font-family: 'Poppins', sans-serif;
   }
   .planes-container-IG .clases-ig-foto2 {display: none;}
 
-
   .form-suscribe { 
     display: flex;
     flex-direction: column;
@@ -436,6 +439,11 @@ input {font-family: 'Poppins', sans-serif;
     padding-bottom: 20px;
   }
   .frase1, .parrafo2, .resumen-planes {font-size: 1.13rem !important; }
+  .transformaciones {
+    width: 100%;
+  }
+
+
 
   
    }
@@ -466,6 +474,11 @@ input {font-family: 'Poppins', sans-serif;
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  .frase1, .parrafo2, .resumen-planes {font-size: 1.13rem !important; }
+  .transformaciones {
+    width: 100%;
   }
   
 
